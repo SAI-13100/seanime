@@ -1,5 +1,6 @@
 "use client"
 
+import { ContinueWatching } from "@/app/(main)/(library)/_containers/continue-watching"
 import { useGetDocs } from "@/api/hooks/docs.hooks"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Badge } from "@/components/ui/badge"
