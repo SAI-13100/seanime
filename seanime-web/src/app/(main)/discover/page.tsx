@@ -90,7 +90,7 @@ export default function Page() {
                             <h2>Trending this season</h2>
                             <DiscoverTrending />
                         </div>
-                        <RecentReleases />
+                        
                         <div className="space-y-2 z-[5] relative">
                             <h2>Highest rated last season</h2>
                             <DiscoverPastSeason />
