@@ -18,33 +18,19 @@
         "resizable": true,
         "fullscreen": false,
         "visible": false,
-        "hiddenTitle": true
-      },
-      {
-        "label": "splashscreen",
-        "title": "Seanime",
-        "width": 800,
-        "height": 600,
-        "resizable": false,
-        "decorations": false,
-        "url": "/splashscreen",
-        "hiddenTitle": true
-      },
-      {
-        "label": "crash_screen",
-        "title": "Seanime",
-        "width": 800,
-        "height": 600,
-        "resizable": false,
-        "decorations": false,
-        "url": "/splashscreen/crash",
         "hiddenTitle": true,
-        "visible": false
+        "url": "/discover"  // 👈 Default startup page changed to Discover
       }
     ],
     "security": {
       "csp": null
     }
+  },
+  "systemTray": {
+    "enabled": false  // 👈 Disabled so app doesn't run in background
+  }
+}
+
   },
   "plugins": {
     "updater": {
